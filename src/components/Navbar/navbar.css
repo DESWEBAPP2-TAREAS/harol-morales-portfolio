@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .profileImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .references {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .w-50 {
+      width: 100%;
+    }
+  
+    .references {
+      display: none;
+    }
+  
+    .navbar-menu {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .navbar-menu a {
+      margin: 0.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      color: #fff;
+    }
+  }
