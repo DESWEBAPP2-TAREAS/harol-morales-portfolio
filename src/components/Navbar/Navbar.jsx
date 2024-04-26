@@ -5,7 +5,7 @@ export const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+      <div className="container-fluid p-0">
         <img src={me} className='profileImg'/>
         <p className="name-nav fw-bold">Harol Morales</p>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

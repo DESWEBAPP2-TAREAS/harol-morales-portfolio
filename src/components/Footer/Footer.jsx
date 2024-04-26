@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
    <footer className="footer">
     <div className='w-100 h-100 d-flex justify-content-center align-items-center'>
-    <span>&copy; devsls 2024. Todos los derechos reservados.</span>
+    <span>&copy; devsls 2024 ALL RIGHTS RESERVED</span>
     </div>
    </footer>
   )

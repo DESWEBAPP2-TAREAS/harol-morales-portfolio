@@ -1,0 +1,64 @@
+#about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+.container-fluid{
+    padding: 2rem;
+}
+.about-main{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2.8rem;
+}
+.title-about{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+}
+.about-spam{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.title-spam{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.spam-me{ 
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: justify;
+}
+.gif-list{
+    width: 25%;
+}
+
+.skills{
+    background-color: #E5E5E5;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    width: fit-content;
+}
+
+@media(max-width:768px){
+    .spam-me{ 
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: justify;
+    }
+    #skills-div{
+        margin-top: 2.8rem;
+    }
+}
