@@ -8,7 +8,7 @@ export const Hero = () => {
 
     </div>
       <div className='section-info-hero'>
-      <img src={dev} alt="" />
+      <img className='mb-5' src={dev} alt="" />
             <span className='title-hero'> HEY I&apos;M HAROL MORALES </span> 
             <span className='info-hero'>
                 Full Stack Developer with expertise in crafting responsive and dynamic websites as well as robust mobile applications.
