@@ -20,7 +20,7 @@ export const Navbar = () => {
               <a className="nav-link active" href="#about">ABOUT</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">PROYECTS</a>
+              <a className="nav-link active" href="#">PROJECTS</a>
             </li>
             <li className="nav-item">
               <a className="nav-link active" href="#">CONTACTS</a>
