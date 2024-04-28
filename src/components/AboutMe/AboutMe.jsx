@@ -1,11 +1,12 @@
 import './aboutme.css'
+import '../../App.css'
 import list from '../../../public/lista.gif'
 export const AboutMe = () => {
   return (
-    <section id="about">
-        <div className="about-main">
-            <p className="title-about">ABOUT ME</p>
-            <span className='about-spam'>
+    <section id="about" className='section-container-generic'>
+        <div className="div-section-primary">
+            <p className="title-section">ABOUT ME</p>
+            <span className='spam-section-global'>
                 Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
             </span>
         </div>
@@ -19,7 +20,6 @@ export const AboutMe = () => {
                     <div className='w-100 d-flex justify-content-center'>
                         <img className='gif-list' src={list} alt="" />
                     </div>
-                  
                 </div>
                 <div id='skills-div' className='col-12 col-sm-12 col-md-6 col-xl-6' >
                     <p className='title-spam'>My Skills</p>
@@ -47,10 +47,13 @@ export const AboutMe = () => {
                         <p className='col-2 skills'>MySQL</p>
                         <p className='col-2 skills'>PostgreSQL</p>
                         <p className='col-2 skills'>Oracle Apex</p>
-                        <p className='col-2 skills'>Spring Boot</p>
+                        <p className='col-2 skills'>SpringBoot</p>
 
                         <h5 className='fw-bold'>Development Tools</h5>
                         <p className='col-2 skills'>GitHub</p>
+                        <p className='col-2 skills'>VS Code</p>
+                        <p className='col-2 skills'>Visual Estudio</p>
+                        <p className='col-2 skills'>NetBeans</p>
                     </div>
                 </div>
 

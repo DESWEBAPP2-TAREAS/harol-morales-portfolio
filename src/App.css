@@ -1,4 +1,47 @@
 body {
     font-family: 'Merriweather Sans', sans-serif!important;
     scroll-margin-top: 15vh!important;
+}
+.section-container-generic{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+.div-section-primary{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2.8rem;
+}
+.title-section{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
+}
+.spam-section-global{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.title-spam{
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+.container-fluid{
+  padding: 2rem;
+}
+
+@media(max-width:768px){
+  .spam-me{ 
+      font-size: 1.2rem;
+      width: 100%;
+      text-align: justify;
   }
+}
