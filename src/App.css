@@ -1,6 +1,8 @@
 body {
     font-family: 'Merriweather Sans', sans-serif!important;
-    scroll-margin-top: 15vh!important;
+}
+#projects, #about, #home{
+  scroll-margin-top: 18vh!important;
 }
 .section-container-generic{
   width: 100%;
@@ -37,7 +39,24 @@ body {
 .container-fluid{
   padding: 2rem;
 }
-
+.btn-projects{
+  text-decoration: none;
+  text-align: center;
+  width: 30%;
+  margin-top: 5rem;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(120, 67, 233);
+  font-size: 1.2rem;
+  transition: transform 0.3s ease; 
+  transform: translate(0, 0);
+}
+.btn-projects:hover {
+  transform: translateY(-5px); 
+}
 @media(max-width:768px){
   .spam-me{ 
       font-size: 1.2rem;

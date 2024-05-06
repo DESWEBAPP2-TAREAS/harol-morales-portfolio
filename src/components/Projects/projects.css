@@ -1,0 +1,27 @@
+.carrousel-container{
+    width: 90%;
+}
+
+.div-container-title{
+    width: 100%;
+    display: flex;
+}
+.div-container-title>span{
+    margin-right: 10px!important;
+}
+.about-project{
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.container-ancord-project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:767px){
+    .div-container-title{
+       justify-content: center;
+    }
+}
