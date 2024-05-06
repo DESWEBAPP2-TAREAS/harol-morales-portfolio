@@ -1,7 +1,9 @@
 .carrousel-container{
     width: 90%;
 }
-
+.mb-rem{
+    margin-bottom: 5rem;
+}
 .div-container-title{
     width: 100%;
     display: flex;
@@ -15,16 +17,32 @@
 }
 .img-logo-projects{
     width: 44px!important;
-    height: auto;
+    height: 44px!important;
 }
 .container-ancord-project{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
+.div-container-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div-container-logo>img{
+    margin-right: 10px!important;
+}
 @media(max-width:767px){
     .div-container-title{
+        flex-direction: column;
        justify-content: center;
+    }
+    .div-container-title>span{
+        text-align: center;
+    }
+    .div-container-logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
