@@ -1,4 +1,4 @@
-import AngularLogo from '../../../public/angular-logo.svg'
+import AngularLogo from '../../../public/angular-logo.webp'
 import BootstrapLogo from '../../../public/bootstrap-logo.svg'
 import './projects.css'
 import '../../App.css'
@@ -10,8 +10,8 @@ const projectsInfo =[
         logos:[AngularLogo,BootstrapLogo],
         imgProjects:['public/sespriv-img-1.png','public/sespriv-img-2.png','public/sespriv-img-3.png']
     }
-]
 
+]
   return (
    <section id='projects' className="section-container-generic">
      <div  className="div-section-primary">
@@ -56,7 +56,7 @@ const projectsInfo =[
                         <div className='div-container-title'>
                             <span className='title-spam m-0'>SESPRIV</span>
                             {project.logos.map((logo,index)=>(
-                               <img key={index} src={logo} alt="Logo"/>
+                               <img key={index} src={logo} alt="Logo" className='img-logo-projects'/>
                             ))}
                         </div>
                         <div className='about-project'>
