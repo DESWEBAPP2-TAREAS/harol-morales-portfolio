@@ -1,6 +1,9 @@
+import { useState } from 'react'
 import './projects.css'
 import '../../App.css'
 export const Projects = () => {
+const [imgProjects, setImg] =useState([['../../../public/sespriv-img-1.png','../../../public/sespriv-img-2.png','../../../public/sespriv-img-3.png']]);
+
   return (
    <section id='projects' className="section-container-generic">
      <div  className="div-section-primary">
@@ -20,15 +23,12 @@ export const Projects = () => {
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div className="carousel-inner">
-                        <div className="carousel-item active">
-                        <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/05/09/16836248850273.jpg" className="d-block img-fluid " alt="..." />
+                    {imgProjects[0].map((imgSrc, index) => (
+                        <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
+                            <img src={imgSrc} className="d-block img-fluid" alt={`Project ${index + 1}`} />
                         </div>
-                        <div className="carousel-item">
-                        <img src="https://www.nintenderos.com/wp-content/uploads/2023/07/zelda-futuro-articuli-1.jpg" className="d-block img-fluid " alt="..." />
-                        </div>
-                        <div className="carousel-item">
-                        <img src="https://www.nintenderos.com/wp-content/uploads/2023/08/zelda-tears-of-the-kingdom-logo-y.jpg.webp" className="d-block img-fluid " alt="..." />
-                        </div>
+                    ))}
+
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
