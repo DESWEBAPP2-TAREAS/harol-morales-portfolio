@@ -33,6 +33,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .div-container-logo>img{
     margin-right: 10px!important;

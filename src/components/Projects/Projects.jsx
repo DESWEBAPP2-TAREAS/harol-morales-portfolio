@@ -3,6 +3,12 @@ import BootstrapLogo from '../../../public/bootstrap-logo.svg';
 import ReactLogo from '../../../public/react-logo.png';
 import NodeLogo from '../../../public/nodejs-logo.png';
 import MongoLogo from '../../../public/mongodb-logo.png';
+import sespriv1 from '/public/sespriv-img-1.png'
+import sespriv2 from '/public/sespriv-img-2.png'
+import sespriv3 from '/public/sespriv-img-3.png'
+import cintillos1 from '/public/cintillos-1.png'
+import cintillos2 from '/public/cintillos-2.png'
+import cintillos3 from '/public/cintillos-3.png'
 import './projects.css';
 import '../../App.css';
 
@@ -13,14 +19,14 @@ export const Projects = () => {
       info: 'Developed a professional landing page for SESPRIV, a private security company specializing in providing trained security agents...',
       url: 'https://main--sespriv.netlify.app/',
       logos: [AngularLogo, BootstrapLogo],
-      imgProjects: ['/public/sespriv-img-1.png', '/public/sespriv-img-2.png', '/public/sespriv-img-3.png']
+      imgProjects: [sespriv1, sespriv2, sespriv3]
     },
     {
       title: 'Sponsorship Management System for VTV',
       info: 'I developed a local Sponsorship Management System for VTV, featuring user roles...',
       url: 'https://main--sespriv.netlify.app/',
       logos: [ReactLogo, BootstrapLogo, NodeLogo, MongoLogo],
-      imgProjects: ['/public/cintillos-1.png', '/public/cintillos-2.png', '/public/cintillos-3.png']
+      imgProjects: [cintillos1, cintillos2, cintillos3]
     }
   ];
 
