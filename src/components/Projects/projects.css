@@ -1,9 +1,14 @@
 .carrousel-container{
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .mb-rem{
     margin-bottom: 5rem;
 }
+
 .div-container-title{
     width: 100%;
     display: flex;
@@ -33,16 +38,28 @@
     margin-right: 10px!important;
 }
 @media(max-width:767px){
+    .title-spam{
+        font-size: 2.4rem;
+    }
     .div-container-title{
         flex-direction: column;
        justify-content: center;
     }
     .div-container-title>span{
+        margin-top: 2rem!important;
+        margin-bottom: 2rem!important;
+        width: 100%!important;
         text-align: center;
+    }
+    .about-project{
+        text-align: center!important;
     }
     .div-container-logo{
         width: 100%;
         display: flex;
         justify-content: center;
+    }.carrousel-container{
+       height: 40vh!important;
+       width: auto;
     }
 }
