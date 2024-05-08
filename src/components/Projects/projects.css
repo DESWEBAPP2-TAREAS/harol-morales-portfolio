@@ -60,7 +60,28 @@
         display: flex;
         justify-content: center;
     }.carrousel-container{
-       height: 40vh!important;
+       height: 44vh!important;
        width: auto;
+       margin-bottom: 1.2rem;
+    }
+}
+@media(max-width:660px){
+    .carrousel-container{
+        height: 35vh!important;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+}
+@media(max-width:580px){
+    .carrousel-container{
+        height: 30vh!important;
+        margin-bottom: 1rem;
+    }
+}
+@media(max-width:480px){
+    .carrousel-container{
+        height: 25vh!important;
+        width: auto;
+        margin-bottom: 1rem;
     }
 }

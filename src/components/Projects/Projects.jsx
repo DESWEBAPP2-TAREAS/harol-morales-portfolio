@@ -23,8 +23,8 @@ export const Projects = () => {
     },
     {
       title: 'Sponsorship Management System for VTV',
-      info: 'I developed a local Sponsorship Management System for VTV, featuring user roles...',
-      url: 'https://main--sespriv.netlify.app/',
+      info: 'I developed a local Sponsorship Management System for VTV, featuring user roles for Masters and Administrators...',
+      url: 'https://github.com/HaroruDa3/control-cintillos-vtv.git',
       logos: [ReactLogo, BootstrapLogo, NodeLogo, MongoLogo],
       imgProjects: [cintillos1, cintillos2, cintillos3]
     }
@@ -43,7 +43,7 @@ export const Projects = () => {
           <div key={index} className='row mb-rem'>
             <div className='col-12 col-sm-12 col-md-6 col-xl-6 d-flex justify-content-center'>
               <div className='carrousel-container'>
-                <div id={`carousel${index}`} className="carousel slide" data-bs-ride="carousel">
+                <div id={`carousel${index}`} className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
                   <div className="carousel-indicators">
                     {project.imgProjects.map((_, idx) => (
                       <button key={idx} type="button" data-bs-target={`#carousel${index}`} data-bs-slide-to={idx} className={idx === 0 ? 'active' : ''} aria-current={idx === 0 ? 'true' : undefined} aria-label={`Slide ${idx + 1}`}></button>
@@ -56,14 +56,6 @@ export const Projects = () => {
                       </div>
                     ))}
                   </div>
-                  <button className="carousel-control-prev" type="button" data-bs-target={`#carousel${index}`} data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                  </button>
-                  <button className="carousel-control-next" type="button" data-bs-target={`#carousel${index}`} data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                  </button>
                 </div>
               </div>
             </div>
