@@ -13,22 +13,22 @@ import './projects.css';
 import '../../App.css';
 
 export const Projects = () => {
-  const projectsInfo = [
-    {
-      title: 'SESPRIV',
-      info: 'Developed a professional landing page for SESPRIV, a private security company specializing in providing trained security agents...',
-      url: 'https://main--sespriv.netlify.app/',
-      logos: [AngularLogo, BootstrapLogo],
-      imgProjects: [sespriv1, sespriv2, sespriv3]
-    },
-    {
-      title: 'Sponsorship Management System for VTV',
-      info: 'I developed a local Sponsorship Management System for VTV, featuring user roles for Masters and Administrators...',
-      url: 'https://github.com/HaroruDa3/control-cintillos-vtv.git',
-      logos: [ReactLogo, BootstrapLogo, NodeLogo, MongoLogo],
-      imgProjects: [cintillos1, cintillos2, cintillos3]
-    }
-  ];
+    const projectsInfo = [
+        {
+          title: 'SESPRIV',
+          info: "Developed a professional landing page for SESPRIV, a private security company specializing in providing trained security agents. The project was built using Angular and Bootstrap, featuring a sleek and responsive design that highlights the company's key services: on-site security, event security, and customized security plans. Designed to deliver an optimal user experience while showcasing the firm's expertise in security solutions.",
+          url: 'https://main--sespriv.netlify.app/',
+          logos: [AngularLogo, BootstrapLogo],
+          imgProjects: [sespriv1, sespriv2, sespriv3]
+        },
+        {
+          title: 'Sponsorship Management System for VTV',
+          info: "I developed a local Sponsorship Management System for VTV, featuring user roles for Masters and Administrators. The system, deployed on their internal network, enhances data security and integrates smoothly with existing infrastructure.",
+          url: 'https://github.com/HaroruDa3/control-cintillos-vtv.git',
+          logos: [ReactLogo, BootstrapLogo, NodeLogo, MongoLogo],
+          imgProjects: [cintillos1, cintillos2, cintillos3]
+        }
+    ];
 
   return (
     <section id='projects' className="section-container-generic">
