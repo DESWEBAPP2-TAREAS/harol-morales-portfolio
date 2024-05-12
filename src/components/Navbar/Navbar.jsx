@@ -35,7 +35,7 @@ export const Navbar = () => {
               <a className="nav-link active" href="#projects" onClick={closeNavbar}>PROJECTS</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#contact" onClick={closeNavbar}>CONTACTS</a>
+                <a className="nav-link active" href="https://wa.me/+50432890527" onClick={closeNavbar}>CONTACTS</a>
             </li>
           </ul>
         </div>
