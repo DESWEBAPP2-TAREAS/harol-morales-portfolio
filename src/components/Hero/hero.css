@@ -111,7 +111,7 @@
         font-size: 15px;
     }
     .btn-projects{
-        width: 50%;
+        width: 60%!important;
     }
 }
 @media(max-width:430px){

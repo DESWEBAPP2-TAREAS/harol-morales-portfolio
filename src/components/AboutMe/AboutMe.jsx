@@ -26,6 +26,7 @@ export const AboutMe = () => {
                     <div className='mt-4 row'>
                         <h5 className='fw-bold'>Programming Languages</h5>
                         <p className='col-2 skills'>JavaScript</p>
+                        <p className='col-2 skills'>TypeScript</p>
                         <p className='col-2 skills'>Java</p>
                         <p className='col-2 skills'>C#</p>
 

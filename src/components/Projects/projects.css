@@ -1,9 +1,14 @@
 .carrousel-container{
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .mb-rem{
     margin-bottom: 5rem;
 }
+
 .div-container-title{
     width: 100%;
     display: flex;
@@ -28,21 +33,55 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .div-container-logo>img{
     margin-right: 10px!important;
 }
 @media(max-width:767px){
+    .title-spam{
+        font-size: 2.4rem;
+    }
     .div-container-title{
         flex-direction: column;
        justify-content: center;
     }
     .div-container-title>span{
+        margin-top: 2rem!important;
+        margin-bottom: 2rem!important;
+        width: 100%!important;
         text-align: center;
+    }
+    .about-project{
+        text-align: center!important;
     }
     .div-container-logo{
         width: 100%;
         display: flex;
         justify-content: center;
+    }.carrousel-container{
+       height: 44vh!important;
+       width: auto;
+       margin-bottom: 1.2rem;
+    }
+}
+@media(max-width:660px){
+    .carrousel-container{
+        height: 35vh!important;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+}
+@media(max-width:580px){
+    .carrousel-container{
+        height: 30vh!important;
+        margin-bottom: 1rem;
+    }
+}
+@media(max-width:480px){
+    .carrousel-container{
+        height: 25vh!important;
+        width: auto;
+        margin-bottom: 1rem;
     }
 }
