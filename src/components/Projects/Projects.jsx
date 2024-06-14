@@ -3,6 +3,7 @@ import BootstrapLogo from '../../../public/bootstrap-logo.svg';
 import ReactLogo from '../../../public/react-logo.png';
 import NodeLogo from '../../../public/nodejs-logo.png';
 import MongoLogo from '../../../public/mongodb-logo.png';
+import PostgresLogo from '../../../public/postgresql_logo.png';
 import sespriv1 from '/public/sespriv-img-1.png'
 import sespriv2 from '/public/sespriv-img-2.png'
 import sespriv3 from '/public/sespriv-img-3.png'
@@ -20,6 +21,13 @@ export const Projects = () => {
           url: 'https://main--sespriv.netlify.app/',
           logos: [AngularLogo, BootstrapLogo],
           imgProjects: [sespriv1, sespriv2, sespriv3]
+        },
+        {
+          title: 'NOMADIC REST',
+          info: "Nomadic Rest is a hotel management platform aimed at businesses that do not have an online presence, allowing them to offer their services and connect with potential customers.",
+          url: 'https://github.com/HaroruDa3/control-cintillos-vtv.git',
+          logos: [ReactLogo, BootstrapLogo, NodeLogo, PostgresLogo],
+          imgProjects: [cintillos1, cintillos2, cintillos3]
         },
         {
           title: 'Sponsorship Management System for VTV',
