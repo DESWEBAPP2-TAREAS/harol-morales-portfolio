@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './navbar.css';
-import me from '../../../public/me.jpeg';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +17,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid p-0">
-        <img src={me} className='profileImg' alt="Profile"/>
+        <img src='https://firebasestorage.googleapis.com/v0/b/portafolio-harol-morales.appspot.com/o/Logos%2Fme.jpeg?alt=media&token=2717c927-b848-48fb-95e5-6c9e75ba6cd6' className='profileImg' alt="Profile"/>
         <p className="name-nav fw-bold">Harol Morales</p>
         <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-controls="navbarNav" aria-expanded={isOpen} aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { getCollectionData } from "../../services/firebaseServices";
 import './aboutme.css';
 import '../../App.css';
-import list from '../../../public/lista.gif';
 import Spinner from "react-bootstrap/Spinner";
 
 export const AboutMe = () => {
@@ -14,10 +13,8 @@ export const AboutMe = () => {
     const fetchData = async () => {
       try {
         const dataList = await getCollectionData('Skills');
-        // Ordenar los datos por el campo id
         const sortedData = dataList.sort((a, b) => a.id - b.id);
         setData(sortedData);
-        console.log(sortedData);
         setLoading(false);
       } catch (error) {
         setError(error);
@@ -44,7 +41,7 @@ export const AboutMe = () => {
               I am a Full Stack Developer with expertise in crafting responsive and dynamic websites as well as robust mobile applications. Skilled in both front-end and back-end technologies, I deliver comprehensive solutions that drive success and functionality across platforms. Committed to building efficient, user-centric, and scalable products that cater to client needs and elevate user experience. I am open to job opportunities that allow me to contribute, learn, and grow in the tech field.
             </div>
             <div className='w-100 d-flex justify-content-center'>
-              <img className='gif-list' src={list} alt="Skills GIF" />
+              <img className='gif-list' src='https://firebasestorage.googleapis.com/v0/b/portafolio-harol-morales.appspot.com/o/Logos%2Flista.gif?alt=media&token=edcbe515-a04c-4bb1-a3d1-2b9ff1683513' alt="Skills GIF" />
             </div>
           </div>
           <div id='skills-div' className='col-12 col-sm-12 col-md-6 col-xl-6'>
