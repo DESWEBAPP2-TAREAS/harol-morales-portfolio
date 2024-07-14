@@ -14,8 +14,10 @@ export const AboutMe = () => {
     const fetchData = async () => {
       try {
         const dataList = await getCollectionData('Skills');
-        setData(dataList);
-        console.log(dataList);
+        // Ordenar los datos por el campo id
+        const sortedData = dataList.sort((a, b) => a.id - b.id);
+        setData(sortedData);
+        console.log(sortedData);
         setLoading(false);
       } catch (error) {
         setError(error);
